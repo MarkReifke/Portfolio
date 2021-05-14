@@ -1,0 +1,65 @@
+.me{
+     color: black;
+     font-size: 50px;
+}
+.info {
+    color: black;
+    margin: 0px 0px 85px 0px;
+}
+.detail{
+    color: cyan;
+}
+.learn{
+    font-size: 35px;
+    color:brown;
+    padding: 0px;
+    margin: 1px auto 1px auto;
+    align-self: center;
+}
+.namee{
+    font-size: 25px;
+    color: chartreuse;
+}
+.side-flex{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    padding: 25px;
+    width: 400px;
+    background: gray;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+.main-col {
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    /* flex: 0 1 auto; */
+    background: coral;
+}
+.text{
+    color: darkblue;
+    text-align: center;
+    font-size: large;
+    padding: 1px 100px 1px 100px;
+}
+.text1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    height: 20px; 
+}
+/* .text2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    height: 20px;
+} */
+.title{
+    color: darkgreen;
+    font-size: 35px;
+}
