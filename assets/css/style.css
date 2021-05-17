@@ -22,9 +22,10 @@
 }
 .side-flex{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    flex: 0 1 auto;
-    padding: 25px;
+    flex: 30%;
+    padding: 20px;
     width: 400px;
     background: gray;
     color: white;
@@ -32,6 +33,8 @@
     text-align: center;
 }
 .main-col {
+    flex: 70%;
+    padding: 20px;
     /* display: flex;
     flex-direction: column; */
     text-align: center;
